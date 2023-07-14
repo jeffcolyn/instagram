@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+body {
+    background-color: #fafafa;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.celular {
+    width: 600px;
+    margin-right: 500px;
+}
+
+.logo-insta {
+    width: 80%;
+    margin-top: 20px;
+    margin-right: 500px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+
+
+}
+
+
+.container {
+    border: 1px solid #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 40px;
+    position: absolute;
+    margin-left: 1000px;
+    margin-right: 500px;
+    margin-bottom: 270px;
+
+
+}
+
+input {
+    height: 45px;
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    background-color: #f3f0f0f6;
+    font-size: 15px;
+    padding-left: 15px;
+
+
+}
+
+button {
+    background-color: #0095f6;
+    height: 43px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #ffff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.facebook {
+    color: #385185;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+
+
+}
+
+.separator {
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #8e8e8e;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    &::before,
+    &::after {
+        content: '';
+        width: 150px;
+        height: 1px;
+        display: block;
+        background-color: #bdbdbd;
+
+
+    }
+
+
+}
+
+.password {
+    color: #385185;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.mudar-page {
+    position: relative;
+}
+
+.page {
+    height: 700px;
+    position: absolute;
+    left: 200px;
+    top: 32px;
+    transition: ease-in-out 2s;
+
+}
+
+.container2 {
+    border: 1px solid #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    padding: 20px;
+    align-items: center;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 540px;
+    margin-right: 500px;
+    justify-content: center;
+    margin-bottom: 200px;
+    font-size: 18px;
+
+}
+
+.Cadastre-se {
+    color: #0095f6;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.baixe-app {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 560px;
+    margin-right: 500px;
+    gap: 7px;
+    cursor: pointer;
+
+}
+
+.obter {
+    display: flex;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 480px;
+    font-size: 20px;
+}
+
+.footer {
+
+    position: absolute;
+    margin-top: 1000px;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.footer a {
+    color: #8b8888;
+    align-items: center;
+    text-align: center;
+    margin: 0 0.625rem;
+    font-size: 18px;
+
+}
+
+
+.copy {
+    display: flex;
+    position: absolute;
+    margin-top: 1090px;
+    font-size: 18px;
+    color: #8b8888;
+    text-align: center;
+    gap: 5px;
+
+}
+
+
+    
+
+    
+ 
+    
+  
+    
+   
+  
+ 
+
+   

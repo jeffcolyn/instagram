@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>instagram</title>
+</head>
+
+<body>
+
+    <div class="mudar-page">
+        <img class="celular" src="./assets/celular.png" alt="img-celular">
+        <img class="page" src="./assets/insta1.png" alt="instagram-page">
+        <img class="page page2" src="./assets/insta2.png" alt="instagram-page2">
+    </div>
+
+
+    <div class="container">
+
+        <img class="logo-insta" src="./assets/insta-logo.png" alt="logo-instagram">
+        <input placeholder="Telefone, nome de usuário ou email" type="text">
+        <input placeholder="senha" type="password">
+        <button>Entrar</button>
+        <div class="separator">OU</div>
+        <a class="facebook" href="https://www.facebook.com/login"> <img class="logo-face" src="./assets/facebook.png"
+                alt="logo-facebook" width="24" height="24"> Entrar com o Facebook </a> <br>
+        <a class="password" href="https://www.instagram.com/accounts/password/reset/">Esqueceu a senha?</a>
+
+    </div>
+
+    <div class="container2">
+        <p> Não tem uma conta? <a class="Cadastre-se"
+                href="https://www.instagram.com/accounts/emailsignup/">Cadastre-se</a> </p>
+    </div>
+    <p class="obter">Obtenha o aplicativo.</p>
+    <div class="baixe-app">
+
+        <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer"><img
+                src="./assets/google play.png" alt="logo-googleplay" width="170" height="65"></a>
+        <a href="https://apps.microsoft.com/store/detail/instagram/9NBLGGH5L9XT?hl=pt-br&gl=br"><img
+                src="./assets/microsoft.png" alt="logo-microsoft" width="175" height="50"></a>
+    </div>
+
+    <div class="footer">
+
+        <a href="https://about.meta.com/"> Meta </a>
+        <a href="https://about.instagram.com/"> Sobre </a>
+        <a href="https://about.instagram.com/blog"> Blog </a>
+        <a href="https://about.instagram.com/about-us/careers"> Carreiras </a>
+        <a href="https://help.instagram.com/"> Ajuda </a>
+        <a href="https://developers.facebook.com/docs/instagram"> Api </a>
+        <a href="https://privacycenter.instagram.com/policy/?entry_point=ig_help_center_data_policy_redirect">
+            Privacidade </a>
+        <a href="https://help.instagram.com/581066165581870/"> Termos </a>
+        <a href="https://www.instagram.com/directory/profiles/"> Principais contas </a>
+        <a href="https://www.instagram.com/explore/locations/"> Localizações </a>
+        <a href="https://www.instagram.com/web/lite/"> Instagram Lite </a>
+        <a href="https://www.threads.net/"> Threads </a>
+        <a class="carregamento" href="https://www.facebook.com/help/instagram/261704639352628"> Carregamento de contatos
+            e não usuários </a>
+        <a href="https://about.meta.com/technologies/meta-verified/"> Meta Verified </a>
+
+    </div>
+
+    <div class="copy">
+        <span>Português</span>
+        <span>© 2023 Instagram from Meta</span>
+    </div>
+
+
+</body>
+
+<script>
+
+    let imagem = document.querySelector(".page2")
+
+
+    setInterval(() => {
+
+        if (imagem.style.opacity == 0) {
+            imagem.style.opacity = 1
+
+        } else {
+            imagem.style.opacity = 0
+
+        }
+
+
+    }, 3000)
+
+    
+</script>
+
+</html>
