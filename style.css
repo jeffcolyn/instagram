@@ -203,16 +203,65 @@ button {
 
 }
 
+@media (max-width: 820px) {
 
+
+    .mudar-page {
+        opacity: 0;
+    }
+
+    .container {
+        width: 70%;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 20px;
+        justify-content: space-between;
+        margin-bottom: 200px;
+    }
+
+.container2{
+    width: 70%;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.obter {
+    width: 70%;
+    margin-left: 370px;
+    margin-right: 230px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    
+}
+
+
+.baixe-app {
+    width: 70%;
+    margin-left: 250px;
+    margin-right: 250px;
+    justify-content: space-between;
+    margin-bottom: 100px;
     
 
-    
- 
-    
-  
-    
+}
+
+.footer a {
+    opacity: 0;
+}
+
+.copy{
+    margin-left: 30px;
+    margin-right: 20px;
+    align-items: center;
+    margin-top: 670px;
+    justify-content: space-between;
+    margin-bottom: 140px;
    
-  
- 
+}
 
-   
+
+
+}
